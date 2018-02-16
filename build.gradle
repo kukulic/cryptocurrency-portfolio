@@ -1,0 +1,46 @@
+buildscript() {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.9.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
+jar {
+    baseName = 'coin-market'
+//    version = '0.1.0'
+}
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web")
+//            {
+//                exclude module: "spring-boot-starter-tomcat"
+//            }
+//    compile("org.springframework.boot:spring-boot-starter-jetty")
+
+//    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("org.springframework.boot:spring-boot-starter-jdbc")
+//    compile("org.springframework:spring-web")
+//    compile("com.fasterxml.jackson.core:jackson-databind")
+//    compile group: 'org.quartz-scheduler', name: 'quartz', version: '2.2.1'
+//    compile group: 'com.h2database', name: 'h2', version: '1.4.195'
+
+
+//    testCompile("junit:junit")
+//    testCompile("org.springframework.boot:spring-boot-starter-test")
+
+}
