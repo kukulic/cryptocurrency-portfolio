@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CoinMarket.iml" filepath="$PROJECT_DIR$/CoinMarket.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CoinMarket_main.iml" filepath="$PROJECT_DIR$/.idea/modules/CoinMarket_main.iml" group="CoinMarket" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CoinMarket_test.iml" filepath="$PROJECT_DIR$/.idea/modules/CoinMarket_test.iml" group="CoinMarket" />
+      <module fileurl="file://$PROJECT_DIR$/cryptocurrency-portfolio.iml" filepath="$PROJECT_DIR$/cryptocurrency-portfolio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cryptocurrency-portfolio_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cryptocurrency-portfolio_main.iml" group="cryptocurrency-portfolio" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cryptocurrency-portfolio_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cryptocurrency-portfolio_test.iml" group="cryptocurrency-portfolio" />
     </modules>
   </component>
 </project>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="CoinMarket_main" target="1.8" />
-      <module name="CoinMarket_test" target="1.8" />
+      <module name="cryptocurrency-portfolio_main" target="1.8" />
+      <module name="cryptocurrency-portfolio_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
