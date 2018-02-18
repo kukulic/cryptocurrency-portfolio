@@ -65,7 +65,7 @@ public class BitGrailController {
                     List<BigDecimal> valuesBTC = new ArrayList<>();
                     if (coinFromList.getCoinValueBTCList() != null)
                         valuesBTC = coinFromList.getCoinValueBTCList();
-                    valuesBTC.add(new BigDecimal(0.0018).setScale(8, RoundingMode.CEILING));
+                    valuesBTC.add(new BigDecimal(0.001).setScale(8, RoundingMode.CEILING));
                     coinFromList.setCoinValueBTCList(valuesBTC);
                     coinList.set(itemIndex, coinFromList);
                 }

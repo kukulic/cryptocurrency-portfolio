@@ -20,7 +20,7 @@ public class CryptoCompareController {
     public List<Coin> addCoinsToListCryptoCompare(List<Coin> coinList) {
 
         CryptoCompareResponse cryptoCompareResponse = restTemplate.getForObject(
-                "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BNB,NEO,ETH,BTC,ADA,GAS,XRP,QSP,GNT,TRX,BCH,ICX,SUB&tsyms=BTC,USD", CryptoCompareResponse.class);
+                "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BNB,NEO,ETH,BTC,ADA,GAS,XRP,QSP,GNT,TRX,BCH,ICX,SUB,NANO&tsyms=BTC,USD", CryptoCompareResponse.class);
 
         for (Map.Entry<String, Value> entry : cryptoCompareResponse.getCoinList().entrySet()) {
             Coin coin = new Coin();

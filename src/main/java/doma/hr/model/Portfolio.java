@@ -13,7 +13,7 @@ public final class Portfolio {
  //       put("ADA", new BigDecimal(0));
         put("ETH", new BigDecimal(0.1));
         put("XRP", new BigDecimal(0));
-        put("XRB", new BigDecimal(116));
+        put("NANO", new BigDecimal(116));
         put("BNB", new BigDecimal(37.5));
         put("GNT", new BigDecimal(220));
  //       put("QSP", new BigDecimal(0));
